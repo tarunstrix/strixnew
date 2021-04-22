@@ -1,0 +1,128 @@
+/*
+
+ Theme Name:   strixdevelopment
+
+ Theme URI:    http://example.com/twenty-twenty-child/
+
+ Description:  Twentytwentyone Child Theme
+
+ Author:       strixdevelopment
+
+ Author URI:   http://example.com
+
+ Template:     twentytwentyone
+
+ Version:      1.0.0
+
+ License:      GNU General Public License v2 or later
+
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+
+ Text Domain:  twentytwentyonechild
+
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  	margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    .header-section-strix {
+    max-width: 100%;
+}
+
+header .elementor-container.elementor-column-gap-default {
+    max-width: 1720px;
+    background: #ffff;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.nav_bar .hfe-nav-menu {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_bar .hfe-nav-menu li a {
+	font-size: 17px;
+	color: #666666;
+	font-family: "Poppins";
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: relative;
+	padding: 35px 42px;
+	
+}
+
+.hfe-search-icon-toggle {
+    background: none;
+   outline:none;
+}
+
+.nav_bar ul li a:first-child {
+	background: none !important;
+}
+
+.nav_bar .elementor-element-populated {
+	flex-wrap: nowrap;
+}
+.nav_bar .hfe-nav-menu #menu-item-18 a {
+	color: red;
+	font-weight: 700;
+}
+
+
+
+
+
+
+.nav_bar .hfe-nav-menu li a::before {
+	position: absolute;
+	background: red;
+	content: "";
+	width: 100%;
+	height: 0;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0;
+}
+
+.nav_bar .hfe-nav-menu li a:hover:before {
+	height: 100%;
+	transition: 0.5s;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
